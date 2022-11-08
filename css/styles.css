@@ -1,0 +1,19 @@
+h1{
+    font-family: 'Bungee Inline', cursive;
+    color: hotpink;
+}
+
+.navbarText{
+    color: white;
+    font-size: 40px;
+    font-family: 'Bungee Inline', cursive;
+}
+.Title{
+    color: hotpink;
+    font-size: 120px;
+    font-family: 'Bungee Inline', cursive; 
+}
+
+.navBtn{
+    max-width: 160px;
+}
