@@ -1,20 +1,29 @@
 h1{
     font-family: 'Bungee Inline', cursive;
-    color: hotpink;
+    color: mediumvioletred;
 }
 
-.navbarText{
+.navbar{
     color: white;
     font-size: 40px;
     font-family: 'Bungee Inline', cursive;
 }
-.Title{
-    color: hotpink;
+.Top{
+    display: flex;
+    justify-content: right;
+    color: mediumvioletred;
+    font-size: 120px;
+    font-family: 'Bungee Inline', cursive; 
+}
+.Tens{
+    display: flex;
+    justify-content: left;
+    color: black;
     font-size: 120px;
     font-family: 'Bungee Inline', cursive; 
 }
 
 .navRow{
-min-height: 100%;
+
 
 }
