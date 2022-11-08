@@ -14,6 +14,7 @@ h1{
     font-family: 'Bungee Inline', cursive; 
 }
 
-.navBtn{
-    max-width: 160px;
+.navRow{
+min-height: 100%;
+
 }
