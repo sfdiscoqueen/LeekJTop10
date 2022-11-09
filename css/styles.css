@@ -4,9 +4,10 @@ h1{
 }
 
 .navbar{
-    color: white;
     font-size: 40px;
     font-family: 'Bungee Inline', cursive;
+    color: white;
+    background-color: black;
 }
 .Top{
     display: flex;
@@ -24,6 +25,8 @@ h1{
 }
 
 .navRow{
-
+position: fixed;
+bottom:0;
+width:50%;
 
 }
