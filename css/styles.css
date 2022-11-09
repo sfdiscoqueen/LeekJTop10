@@ -3,10 +3,15 @@ h1{
     color: mediumvioletred;
 }
 
+h2, h3, h6{
+    font-family: 'Inter', sans-serif;
+}
+
 .navbar{
     font-size: 40px;
     font-family: 'Bungee Inline', cursive;
 }
+
 .Top{
     display: flex;
     justify-content: right;
@@ -14,6 +19,7 @@ h1{
     font-size: 120px;
     font-family: 'Bungee Inline', cursive; 
 }
+
 .Tens{
     display: flex;
     justify-content: left;
@@ -26,6 +32,5 @@ h1{
 position: fixed;
 bottom:0;
 width:50%;
-
 }
 
