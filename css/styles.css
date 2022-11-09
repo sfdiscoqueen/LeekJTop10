@@ -6,8 +6,6 @@ h1{
 .navbar{
     font-size: 40px;
     font-family: 'Bungee Inline', cursive;
-    color: white;
-    background-color: black;
 }
 .Top{
     display: flex;
@@ -30,3 +28,4 @@ bottom:0;
 width:50%;
 
 }
+
