@@ -1,37 +1,74 @@
-h1{
+h1 {
     font-family: 'Bungee Inline', cursive;
     color: mediumvioletred;
 }
 
-h2, h3, h6{
+h2,
+h3,
+h6 {
     font-family: 'Inter', sans-serif;
     margin: 1em;
 }
 
-.navbar{
+.navbar {
+    display: flex;
+    justify-content: space-around;
     font-size: 40px;
     font-family: 'Bungee Inline', cursive;
+    background-color: black;
+    color: white;
 }
 
-.Top{
+.Top {
     display: flex;
     justify-content: right;
     color: mediumvioletred;
     font-size: 120px;
-    font-family: 'Bungee Inline', cursive; 
+    font-family: 'Bungee Inline', cursive;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
 }
 
-.Tens{
+.Tens {
     display: flex;
     justify-content: left;
-    color: black;
+    color: white;
     font-size: 120px;
-    font-family: 'Bungee Inline', cursive; 
+    font-family: 'Bungee Inline', cursive;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
 }
 
-.navRow{
-position: fixed;
-bottom:0;
-width:50%;
+.topic1 {
+    display: flex;
+    justify-content: center;
+    color: mediumvioletred;
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    bottom: -65%;
+    left: 25%;
+    transform: translate(-50%, -50%);
 }
 
+.topic2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    bottom: -65%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.navRow {
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+}
