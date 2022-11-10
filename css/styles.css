@@ -23,11 +23,11 @@ h6 {
     display: flex;
     justify-content: right;
     color: mediumvioletred;
-    font-size: 120px;
+    font-size: 180px;
     font-family: 'Bungee Inline', cursive;
     position: absolute;
     top: 40%;
-    left: 40%;
+    left: 35%;
     transform: translate(-50%, -50%);
 }
 
@@ -35,11 +35,11 @@ h6 {
     display: flex;
     justify-content: left;
     color: white;
-    font-size: 120px;
+    font-size: 180px;
     font-family: 'Bungee Inline', cursive;
     position: absolute;
     top: 40%;
-    left: 60%;
+    left: 65%;
     transform: translate(-50%, -50%);
 }
 
